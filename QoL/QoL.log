@@ -1,0 +1,1447 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Nov  9 21:55:58 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+chdir() to /home/chen7874/QoL/
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to UNIX address /home/chen7874/QoL/uwsgi.sock fd 7
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1c41a90
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1c41a90 pid: 14308 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14308)
+spawned uWSGI worker 1 (pid: 14310, cores: 1)
+spawned uWSGI worker 2 (pid: 14311, cores: 1)
+spawned uWSGI worker 3 (pid: 14312, cores: 1)
+spawned uWSGI worker 4 (pid: 14313, cores: 1)
+spawned uWSGI http 1 (pid: 14314)
+Not Found: /
+[pid: 14312|app: 0|req: 1/1] 10.14.120.24 () {38 vars in 746 bytes} [Tue Nov 10 03:56:08 2020] GET / => generated 2247 bytes in 58 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+[pid: 14313|app: 0|req: 1/2] 10.14.120.24 () {36 vars in 729 bytes} [Tue Nov 10 03:56:17 2020] GET /console => generated 0 bytes in 41 msecs (HTTP/1.1 301) 5 headers in 177 bytes (1 switches on core 0)
+[pid: 14313|app: 0|req: 2/3] 10.14.120.24 () {36 vars in 731 bytes} [Tue Nov 10 03:56:17 2020] GET /console/ => generated 0 bytes in 59 msecs (HTTP/1.1 302) 9 headers in 343 bytes (1 switches on core 0)
+[pid: 14311|app: 0|req: 1/4] 10.14.120.24 () {36 vars in 772 bytes} [Tue Nov 10 03:56:17 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 128 msecs (HTTP/1.1 200) 9 headers in 469 bytes (1 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+[pid: 14311|app: 0|req: 2/5] 10.14.120.24 () {38 vars in 787 bytes} [Tue Nov 10 03:56:17 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 14312|app: 0|req: 2/6] 10.14.120.24 () {38 vars in 785 bytes} [Tue Nov 10 03:56:17 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 14313|app: 0|req: 3/7] 10.14.120.24 () {38 vars in 773 bytes} [Tue Nov 10 03:56:17 2020] GET /static/admin/css/base.css => generated 2340 bytes in 18 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 14310|app: 0|req: 1/8] 10.14.120.24 () {38 vars in 775 bytes} [Tue Nov 10 03:56:17 2020] GET /static/admin/css/login.css => generated 2343 bytes in 50 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 14310|app: 0|req: 2/9] 10.14.120.24 () {38 vars in 768 bytes} [Tue Nov 10 03:56:17 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Nov  9 22:08:34 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+chdir() to /home/chen7874/QoL/
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 4
+uwsgi socket 0 bound to UNIX address /home/chen7874/QoL/uwsgi.sock fd 7
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x237fbb0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x237fbb0 pid: 14421 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14421)
+spawned uWSGI worker 1 (pid: 14423, cores: 1)
+spawned uWSGI worker 2 (pid: 14425, cores: 1)
+spawned 4 offload threads for uWSGI worker 1
+spawned uWSGI worker 3 (pid: 14429, cores: 1)
+spawned uWSGI worker 4 (pid: 14431, cores: 1)
+spawned 4 offload threads for uWSGI worker 3
+spawned uWSGI http 1 (pid: 14438)
+spawned 4 offload threads for uWSGI worker 4
+spawned 4 offload threads for uWSGI worker 2
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Nov  9 22:08:45 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+chdir() to /home/chen7874/QoL/
+your processes number limit is 4096
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8080).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 14429|app: 0|req: 1/1] 10.14.120.24 () {40 vars in 892 bytes} [Tue Nov 10 04:08:56 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 115 msecs (HTTP/1.1 200) 9 headers in 469 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 14429|app: 0|req: 2/2] 10.14.120.24 () {38 vars in 773 bytes} [Tue Nov 10 04:08:57 2020] GET /static/admin/css/base.css => generated 2340 bytes in 12 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 14429|app: 0|req: 3/3] 10.14.120.24 () {38 vars in 768 bytes} [Tue Nov 10 04:08:57 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 8 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+[pid: 14431|app: 0|req: 1/4] 10.14.120.24 () {38 vars in 787 bytes} [Tue Nov 10 04:08:57 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 50 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 14425|app: 0|req: 1/5] 10.14.120.24 () {38 vars in 775 bytes} [Tue Nov 10 04:08:57 2020] GET /static/admin/css/login.css => generated 2343 bytes in 50 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 14423|app: 0|req: 1/6] 10.14.120.24 () {38 vars in 785 bytes} [Tue Nov 10 04:08:57 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 57 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+[pid: 14429|app: 0|req: 4/7] 10.14.120.24 () {40 vars in 892 bytes} [Tue Nov 10 04:08:57 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 22 msecs (HTTP/1.1 200) 9 headers in 469 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/login.css
+[pid: 14429|app: 0|req: 5/9] 10.14.120.24 () {38 vars in 773 bytes} [Tue Nov 10 04:08:57 2020] GET /static/admin/css/base.css => generated 2340 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+[pid: 14425|app: 0|req: 2/9] 10.14.120.24 () {38 vars in 775 bytes} [Tue Nov 10 04:08:57 2020] GET /static/admin/css/login.css => generated 2343 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+[pid: 14431|app: 0|req: 2/10] 10.14.120.24 () {38 vars in 787 bytes} [Tue Nov 10 04:08:57 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 14423|app: 0|req: 2/11] 10.14.120.24 () {38 vars in 785 bytes} [Tue Nov 10 04:08:57 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 9 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 14423|app: 0|req: 3/12] 10.14.120.24 () {38 vars in 768 bytes} [Tue Nov 10 04:08:57 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+[pid: 14425|app: 0|req: 3/13] 10.14.120.24 () {40 vars in 892 bytes} [Tue Nov 10 04:08:58 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 78 msecs (HTTP/1.1 200) 9 headers in 469 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 14429|app: 0|req: 6/14] 10.14.120.24 () {38 vars in 773 bytes} [Tue Nov 10 04:08:58 2020] GET /static/admin/css/base.css => generated 2340 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+[pid: 14431|app: 0|req: 3/15] 10.14.120.24 () {38 vars in 787 bytes} [Tue Nov 10 04:08:58 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 14423|app: 0|req: 4/16] 10.14.120.24 () {38 vars in 775 bytes} [Tue Nov 10 04:08:58 2020] GET /static/admin/css/login.css => generated 2343 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 14425|app: 0|req: 4/17] 10.14.120.24 () {38 vars in 785 bytes} [Tue Nov 10 04:08:58 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 14429|app: 0|req: 7/18] 10.14.120.24 () {38 vars in 768 bytes} [Tue Nov 10 04:08:58 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+[pid: 14425|app: 0|req: 5/19] 10.14.120.24 () {40 vars in 892 bytes} [Tue Nov 10 04:08:58 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 21 msecs (HTTP/1.1 200) 9 headers in 469 bytes (2 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 14429|app: 0|req: 8/20] 10.14.120.24 () {38 vars in 773 bytes} [Tue Nov 10 04:08:59 2020] GET /static/admin/css/base.css => generated 2340 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+[pid: 14431|app: 0|req: 4/21] 10.14.120.24 () {38 vars in 787 bytes} [Tue Nov 10 04:08:59 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 14423|app: 0|req: 5/22] 10.14.120.24 () {38 vars in 775 bytes} [Tue Nov 10 04:08:59 2020] GET /static/admin/css/login.css => generated 2343 bytes in 12 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 14425|app: 0|req: 6/23] 10.14.120.24 () {38 vars in 785 bytes} [Tue Nov 10 04:08:59 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 14429|app: 0|req: 9/24] 10.14.120.24 () {38 vars in 768 bytes} [Tue Nov 10 04:08:59 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 9 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+[pid: 14431|app: 0|req: 5/25] 10.14.120.24 () {40 vars in 892 bytes} [Tue Nov 10 04:08:59 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 78 msecs (HTTP/1.1 200) 9 headers in 469 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 14429|app: 0|req: 10/26] 10.14.120.24 () {38 vars in 773 bytes} [Tue Nov 10 04:08:59 2020] GET /static/admin/css/base.css => generated 2340 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+[pid: 14431|app: 0|req: 6/27] 10.14.120.24 () {38 vars in 787 bytes} [Tue Nov 10 04:08:59 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 14425|app: 0|req: 7/28] 10.14.120.24 () {38 vars in 775 bytes} [Tue Nov 10 04:08:59 2020] GET /static/admin/css/login.css => generated 2343 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 14423|app: 0|req: 6/29] 10.14.120.24 () {38 vars in 785 bytes} [Tue Nov 10 04:08:59 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 14429|app: 0|req: 11/30] 10.14.120.24 () {38 vars in 768 bytes} [Tue Nov 10 04:08:59 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+[pid: 14429|app: 0|req: 12/31] 10.14.120.24 () {38 vars in 861 bytes} [Tue Nov 10 04:09:07 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 20 msecs (HTTP/1.1 200) 9 headers in 469 bytes (1 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+[pid: 14429|app: 0|req: 13/32] 10.14.120.24 () {38 vars in 787 bytes} [Tue Nov 10 04:09:07 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 14431|app: 0|req: 7/33] 10.14.120.24 () {38 vars in 773 bytes} [Tue Nov 10 04:09:07 2020] GET /static/admin/css/base.css => generated 2340 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 14423|app: 0|req: 7/34] 10.14.120.24 () {38 vars in 785 bytes} [Tue Nov 10 04:09:07 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 14425|app: 0|req: 8/35] 10.14.120.24 () {38 vars in 775 bytes} [Tue Nov 10 04:09:07 2020] GET /static/admin/css/login.css => generated 2343 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 14429|app: 0|req: 14/36] 10.14.120.24 () {38 vars in 768 bytes} [Tue Nov 10 04:09:07 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+[pid: 14429|app: 0|req: 15/37] 10.14.120.24 () {36 vars in 668 bytes} [Tue Nov 10 04:09:14 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 20 msecs (HTTP/1.1 200) 9 headers in 469 bytes (2 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 14423|app: 0|req: 8/38] 10.14.120.24 () {38 vars in 741 bytes} [Tue Nov 10 04:09:14 2020] GET /static/admin/css/base.css => generated 2340 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+[pid: 14431|app: 0|req: 8/39] 10.14.120.24 () {38 vars in 755 bytes} [Tue Nov 10 04:09:14 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 14429|app: 0|req: 16/40] 10.14.120.24 () {38 vars in 736 bytes} [Tue Nov 10 04:09:14 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 14431|app: 0|req: 9/41] 10.14.120.24 () {38 vars in 743 bytes} [Tue Nov 10 04:09:14 2020] GET /static/admin/css/login.css => generated 2343 bytes in 7 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 14425|app: 0|req: 9/42] 10.14.120.24 () {38 vars in 753 bytes} [Tue Nov 10 04:09:14 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 9 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 14425|app: 0|req: 10/43] 10.14.120.24 () {38 vars in 698 bytes} [Tue Nov 10 04:09:15 2020] GET /favicon.ico => generated 2298 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Nov  9 22:33:42 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/chen7874/QoL/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xb46bd0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xb46bd0 pid: 14795 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 14795)
+spawned uWSGI worker 1 (pid: 14797, cores: 1)
+spawned uWSGI worker 2 (pid: 14799, cores: 1)
+spawned uWSGI worker 3 (pid: 14802, cores: 1)
+spawned uWSGI worker 4 (pid: 14808, cores: 1)
+spawned 4 offload threads for uWSGI worker 1
+spawned uWSGI http 1 (pid: 14812)
+spawned 4 offload threads for uWSGI worker 2
+spawned 4 offload threads for uWSGI worker 4
+spawned 4 offload threads for uWSGI worker 3
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Nov  9 23:13:28 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/chen7874/QoL/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xda8aa0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xda8aa0 pid: 15842 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15842)
+spawned uWSGI worker 1 (pid: 15844, cores: 1)
+spawned uWSGI worker 2 (pid: 15845, cores: 1)
+spawned uWSGI worker 3 (pid: 15846, cores: 1)
+spawned uWSGI worker 4 (pid: 15847, cores: 1)
+spawned uWSGI http 1 (pid: 15848)
+Not Found: /
+[pid: 15847|app: 0|req: 1/1] 10.14.120.24 () {38 vars in 804 bytes} [Tue Nov 10 05:13:37 2020] GET / => generated 2247 bytes in 53 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+[pid: 15847|app: 0|req: 2/2] 10.14.120.24 () {38 vars in 861 bytes} [Tue Nov 10 05:14:05 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 91 msecs (HTTP/1.1 200) 9 headers in 469 bytes (1 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+[pid: 15847|app: 0|req: 3/3] 10.14.120.24 () {38 vars in 787 bytes} [Tue Nov 10 05:14:05 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 12 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 15846|app: 0|req: 1/4] 10.14.120.24 () {38 vars in 773 bytes} [Tue Nov 10 05:14:05 2020] GET /static/admin/css/base.css => generated 2340 bytes in 54 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 15844|app: 0|req: 1/5] 10.14.120.24 () {38 vars in 785 bytes} [Tue Nov 10 05:14:05 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 51 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 15845|app: 0|req: 1/6] 10.14.120.24 () {38 vars in 775 bytes} [Tue Nov 10 05:14:05 2020] GET /static/admin/css/login.css => generated 2343 bytes in 54 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 15846|app: 0|req: 2/7] 10.14.120.24 () {38 vars in 768 bytes} [Tue Nov 10 05:14:06 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+[pid: 15844|app: 0|req: 2/8] 10.14.120.24 () {38 vars in 861 bytes} [Tue Nov 10 05:21:20 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 92 msecs (HTTP/1.1 200) 9 headers in 469 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 15847|app: 0|req: 4/9] 10.14.120.24 () {38 vars in 773 bytes} [Tue Nov 10 05:21:20 2020] GET /static/admin/css/base.css => generated 2340 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 15847|app: 0|req: 5/10] 10.14.120.24 () {38 vars in 775 bytes} [Tue Nov 10 05:21:20 2020] GET /static/admin/css/login.css => generated 2343 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 15846|app: 0|req: 3/11] 10.14.120.24 () {38 vars in 785 bytes} [Tue Nov 10 05:21:20 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 12 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+[pid: 15845|app: 0|req: 2/12] 10.14.120.24 () {38 vars in 787 bytes} [Tue Nov 10 05:21:20 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 13 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 15846|app: 0|req: 4/13] 10.14.120.24 () {38 vars in 768 bytes} [Tue Nov 10 05:21:20 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Nov  9 23:26:45 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8008 fd 3
+uwsgi socket 0 bound to UNIX address /home/chen7874/QoL/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1c64aa0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1c64aa0 pid: 15966 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15966)
+spawned uWSGI worker 1 (pid: 15968, cores: 1)
+spawned uWSGI worker 2 (pid: 15969, cores: 1)
+spawned uWSGI worker 3 (pid: 15970, cores: 1)
+spawned uWSGI worker 4 (pid: 15971, cores: 1)
+spawned uWSGI http 1 (pid: 15972)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Nov  9 23:27:18 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8008 fd 3
+uwsgi socket 0 bound to UNIX address /home/chen7874/QoL/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xecdaa0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xecdaa0 pid: 15980 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15980)
+spawned uWSGI worker 1 (pid: 15982, cores: 1)
+spawned uWSGI worker 2 (pid: 15983, cores: 1)
+spawned uWSGI worker 3 (pid: 15984, cores: 1)
+spawned uWSGI worker 4 (pid: 15985, cores: 1)
+spawned uWSGI http 1 (pid: 15986)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Nov  9 23:29:00 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8000 fd 3
+uwsgi socket 0 bound to UNIX address /home/chen7874/QoL/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1b3baa0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1b3baa0 pid: 15999 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 15999)
+spawned uWSGI worker 1 (pid: 16001, cores: 1)
+spawned uWSGI worker 2 (pid: 16002, cores: 1)
+spawned uWSGI worker 3 (pid: 16003, cores: 1)
+spawned uWSGI worker 4 (pid: 16004, cores: 1)
+spawned uWSGI http 1 (pid: 16005)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Nov  9 23:29:54 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/chen7874/QoL/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1fa5aa0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1fa5aa0 pid: 16010 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16010)
+spawned uWSGI worker 1 (pid: 16012, cores: 1)
+spawned uWSGI worker 2 (pid: 16013, cores: 1)
+spawned uWSGI worker 3 (pid: 16014, cores: 1)
+spawned uWSGI worker 4 (pid: 16015, cores: 1)
+spawned uWSGI http 1 (pid: 16016)
+[pid: 16015|app: 0|req: 1/1] 10.14.120.24 () {38 vars in 861 bytes} [Tue Nov 10 05:30:00 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 114 msecs (HTTP/1.1 200) 9 headers in 469 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 16015|app: 0|req: 2/2] 10.14.120.24 () {38 vars in 773 bytes} [Tue Nov 10 05:30:00 2020] GET /static/admin/css/base.css => generated 2340 bytes in 12 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+[pid: 16013|app: 0|req: 1/5] 10.14.120.24 () {38 vars in 785 bytes} [Tue Nov 10 05:30:00 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 50 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+[pid: 16012|app: 0|req: 1/5] 10.14.120.24 () {38 vars in 787 bytes} [Tue Nov 10 05:30:00 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 50 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+[pid: 16014|app: 0|req: 1/5] 10.14.120.24 () {38 vars in 775 bytes} [Tue Nov 10 05:30:00 2020] GET /static/admin/css/login.css => generated 2343 bytes in 49 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 16014|app: 0|req: 2/6] 10.14.120.24 () {38 vars in 766 bytes} [Tue Nov 10 05:30:01 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Nov  9 23:31:02 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8007 fd 3
+uwsgi socket 0 bound to UNIX address /home/chen7874/QoL/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1a67aa0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1a67aa0 pid: 16032 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16032)
+spawned uWSGI worker 1 (pid: 16034, cores: 1)
+spawned uWSGI worker 2 (pid: 16035, cores: 1)
+spawned uWSGI worker 3 (pid: 16036, cores: 1)
+spawned uWSGI worker 4 (pid: 16037, cores: 1)
+spawned uWSGI http 1 (pid: 16038)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Nov  9 23:32:11 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/chen7874/QoL/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x24d4aa0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x24d4aa0 pid: 16042 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16042)
+spawned uWSGI worker 1 (pid: 16044, cores: 1)
+spawned uWSGI worker 2 (pid: 16045, cores: 1)
+spawned uWSGI worker 3 (pid: 16046, cores: 1)
+spawned uWSGI worker 4 (pid: 16047, cores: 1)
+spawned uWSGI http 1 (pid: 16048)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Nov  9 23:32:25 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/chen7874/QoL/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1dd7aa0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1dd7aa0 pid: 16055 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16055)
+spawned uWSGI worker 1 (pid: 16057, cores: 1)
+spawned uWSGI worker 2 (pid: 16058, cores: 1)
+spawned uWSGI worker 3 (pid: 16059, cores: 1)
+spawned uWSGI worker 4 (pid: 16060, cores: 1)
+spawned uWSGI http 1 (pid: 16061)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Nov  9 23:38:25 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d77aa0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1d77aa0 pid: 16223 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16223)
+spawned uWSGI worker 1 (pid: 16225, cores: 1)
+spawned uWSGI worker 2 (pid: 16226, cores: 1)
+spawned uWSGI worker 3 (pid: 16227, cores: 1)
+spawned uWSGI worker 4 (pid: 16228, cores: 1)
+spawned uWSGI http 1 (pid: 16229)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Nov  9 23:45:06 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1ed1ac0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1ed1ac0 pid: 16401 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16401)
+spawned uWSGI worker 1 (pid: 16403, cores: 1)
+spawned uWSGI worker 2 (pid: 16404, cores: 1)
+spawned uWSGI worker 3 (pid: 16405, cores: 1)
+spawned uWSGI worker 4 (pid: 16406, cores: 1)
+spawned uWSGI http 1 (pid: 16407)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Nov  9 23:59:38 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8091 fd 3
+uwsgi socket 0 bound to UNIX address /home/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1a8fac0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1a8fac0 pid: 16716 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16716)
+spawned uWSGI worker 1 (pid: 16718, cores: 1)
+spawned uWSGI worker 2 (pid: 16719, cores: 1)
+spawned uWSGI worker 3 (pid: 16720, cores: 1)
+spawned uWSGI worker 4 (pid: 16721, cores: 1)
+spawned uWSGI http 1 (pid: 16722)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 00:01:52 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1c8cac0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1c8cac0 pid: 16757 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16757)
+spawned uWSGI worker 1 (pid: 16759, cores: 1)
+spawned uWSGI worker 2 (pid: 16760, cores: 1)
+spawned uWSGI worker 3 (pid: 16761, cores: 1)
+spawned uWSGI worker 4 (pid: 16762, cores: 1)
+spawned uWSGI http 1 (pid: 16763)
+[pid: 16760|app: 0|req: 1/1] 10.14.120.24 () {38 vars in 860 bytes} [Tue Nov 10 06:01:58 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 132 msecs (HTTP/1.1 200) 9 headers in 469 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 16760|app: 0|req: 2/2] 10.14.120.24 () {38 vars in 772 bytes} [Tue Nov 10 06:01:58 2020] GET /static/admin/css/base.css => generated 2340 bytes in 13 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 16760|app: 0|req: 3/3] 10.14.120.24 () {38 vars in 774 bytes} [Tue Nov 10 06:01:58 2020] GET /static/admin/css/login.css => generated 2343 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+[pid: 16761|app: 0|req: 1/4] 10.14.120.24 () {38 vars in 786 bytes} [Tue Nov 10 06:01:58 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 50 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 16759|app: 0|req: 1/5] 10.14.120.24 () {38 vars in 784 bytes} [Tue Nov 10 06:01:58 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 59 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 16760|app: 0|req: 4/6] 10.14.120.24 () {38 vars in 768 bytes} [Tue Nov 10 06:01:58 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 4 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 00:02:39 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:5000 fd 3
+uwsgi socket 0 bound to UNIX address /home/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1835ac0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1835ac0 pid: 16767 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16767)
+spawned uWSGI worker 1 (pid: 16769, cores: 1)
+spawned uWSGI worker 2 (pid: 16770, cores: 1)
+spawned uWSGI worker 3 (pid: 16771, cores: 1)
+spawned uWSGI worker 4 (pid: 16772, cores: 1)
+spawned uWSGI http 1 (pid: 16773)
+[pid: 16770|app: 0|req: 1/1] 10.14.120.24 () {40 vars in 892 bytes} [Tue Nov 10 06:02:41 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 125 msecs (HTTP/1.1 200) 9 headers in 469 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 16770|app: 0|req: 2/2] 10.14.120.24 () {38 vars in 775 bytes} [Tue Nov 10 06:02:41 2020] GET /static/admin/css/login.css => generated 2343 bytes in 13 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 16772|app: 0|req: 1/3] 10.14.120.24 () {38 vars in 773 bytes} [Tue Nov 10 06:02:41 2020] GET /static/admin/css/base.css => generated 2340 bytes in 52 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+[pid: 16769|app: 0|req: 1/4] 10.14.120.24 () {38 vars in 787 bytes} [Tue Nov 10 06:02:41 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 51 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 16771|app: 0|req: 1/5] 10.14.120.24 () {38 vars in 785 bytes} [Tue Nov 10 06:02:41 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 53 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 16771|app: 0|req: 2/6] 10.14.120.24 () {38 vars in 768 bytes} [Tue Nov 10 06:02:41 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 3 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+[pid: 16772|app: 0|req: 2/7] 10.14.120.24 () {40 vars in 892 bytes} [Tue Nov 10 06:02:42 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 80 msecs (HTTP/1.1 200) 9 headers in 469 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/nav_sidebar.css
+[pid: 16770|app: 0|req: 3/8] 10.14.120.24 () {38 vars in 773 bytes} [Tue Nov 10 06:02:42 2020] GET /static/admin/css/base.css => generated 2340 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+[pid: 16769|app: 0|req: 2/9] 10.14.120.24 () {38 vars in 775 bytes} [Tue Nov 10 06:02:42 2020] GET /static/admin/css/login.css => generated 2343 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+[pid: 16772|app: 0|req: 3/10] 10.14.120.24 () {38 vars in 787 bytes} [Tue Nov 10 06:02:42 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 16771|app: 0|req: 3/11] 10.14.120.24 () {38 vars in 785 bytes} [Tue Nov 10 06:02:42 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 16772|app: 0|req: 4/12] 10.14.120.24 () {38 vars in 768 bytes} [Tue Nov 10 06:02:42 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 8 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+[pid: 16771|app: 0|req: 4/13] 10.14.120.24 () {40 vars in 892 bytes} [Tue Nov 10 06:02:43 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 79 msecs (HTTP/1.1 200) 9 headers in 469 bytes (1 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+Not Found: /static/admin/css/login.css
+Not Found: /static/admin/css/responsive.css
+[pid: 16772|app: 0|req: 5/14] 10.14.120.24 () {38 vars in 787 bytes} [Tue Nov 10 06:02:43 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+[pid: 16770|app: 0|req: 4/15] 10.14.120.24 () {38 vars in 775 bytes} [Tue Nov 10 06:02:43 2020] GET /static/admin/css/login.css => generated 2343 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+[pid: 16769|app: 0|req: 3/16] 10.14.120.24 () {38 vars in 785 bytes} [Tue Nov 10 06:02:43 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 9 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 16771|app: 0|req: 5/17] 10.14.120.24 () {38 vars in 773 bytes} [Tue Nov 10 06:02:43 2020] GET /static/admin/css/base.css => generated 2340 bytes in 12 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 16772|app: 0|req: 6/18] 10.14.120.24 () {38 vars in 768 bytes} [Tue Nov 10 06:02:43 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 9 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+[pid: 16772|app: 0|req: 7/19] 10.14.120.24 () {40 vars in 892 bytes} [Tue Nov 10 06:02:43 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 21 msecs (HTTP/1.1 200) 9 headers in 469 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 16772|app: 0|req: 8/20] 10.14.120.24 () {38 vars in 773 bytes} [Tue Nov 10 06:02:43 2020] GET /static/admin/css/base.css => generated 2340 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+[pid: 16769|app: 0|req: 4/21] 10.14.120.24 () {38 vars in 787 bytes} [Tue Nov 10 06:02:43 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 16770|app: 0|req: 5/22] 10.14.120.24 () {38 vars in 775 bytes} [Tue Nov 10 06:02:43 2020] GET /static/admin/css/login.css => generated 2343 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 16771|app: 0|req: 6/23] 10.14.120.24 () {38 vars in 785 bytes} [Tue Nov 10 06:02:43 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 16770|app: 0|req: 6/24] 10.14.120.24 () {38 vars in 768 bytes} [Tue Nov 10 06:02:43 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 9 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+[pid: 16772|app: 0|req: 9/25] 10.14.120.24 () {40 vars in 892 bytes} [Tue Nov 10 06:02:44 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 20 msecs (HTTP/1.1 200) 9 headers in 469 bytes (1 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 16772|app: 0|req: 10/26] 10.14.120.24 () {38 vars in 773 bytes} [Tue Nov 10 06:02:44 2020] GET /static/admin/css/base.css => generated 2340 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+[pid: 16771|app: 0|req: 7/27] 10.14.120.24 () {38 vars in 787 bytes} [Tue Nov 10 06:02:44 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/login.css
+[pid: 16770|app: 0|req: 7/28] 10.14.120.24 () {38 vars in 775 bytes} [Tue Nov 10 06:02:44 2020] GET /static/admin/css/login.css => generated 2343 bytes in 9 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+[pid: 16769|app: 0|req: 5/29] 10.14.120.24 () {38 vars in 785 bytes} [Tue Nov 10 06:02:44 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 16771|app: 0|req: 8/30] 10.14.120.24 () {38 vars in 768 bytes} [Tue Nov 10 06:02:44 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 9 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+[pid: 16772|app: 0|req: 11/31] 10.14.120.24 () {40 vars in 892 bytes} [Tue Nov 10 06:02:44 2020] GET /console/login/?next=/console/ => generated 2186 bytes in 11 msecs (HTTP/1.1 200) 9 headers in 469 bytes (2 switches on core 0)
+Not Found: /static/admin/css/base.css
+[pid: 16772|app: 0|req: 12/32] 10.14.120.24 () {38 vars in 773 bytes} [Tue Nov 10 06:02:44 2020] GET /static/admin/css/base.css => generated 2340 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /static/admin/css/nav_sidebar.css
+[pid: 16771|app: 0|req: 9/33] 10.14.120.24 () {38 vars in 787 bytes} [Tue Nov 10 06:02:44 2020] GET /static/admin/css/nav_sidebar.css => generated 2361 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/css/responsive.css
+Not Found: /static/admin/css/login.css
+[pid: 16769|app: 0|req: 6/34] 10.14.120.24 () {38 vars in 785 bytes} [Tue Nov 10 06:02:44 2020] GET /static/admin/css/responsive.css => generated 2358 bytes in 9 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+[pid: 16770|app: 0|req: 8/35] 10.14.120.24 () {38 vars in 775 bytes} [Tue Nov 10 06:02:44 2020] GET /static/admin/css/login.css => generated 2343 bytes in 11 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+Not Found: /static/admin/js/nav_sidebar.js
+[pid: 16772|app: 0|req: 13/36] 10.14.120.24 () {38 vars in 768 bytes} [Tue Nov 10 06:02:45 2020] GET /static/admin/js/nav_sidebar.js => generated 2355 bytes in 10 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /
+[pid: 16772|app: 0|req: 14/37] 10.14.120.24 () {38 vars in 804 bytes} [Tue Nov 10 06:02:55 2020] GET / => generated 2247 bytes in 6 msecs (HTTP/1.1 404) 6 headers in 173 bytes (2 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 00:03:06 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:5000 fd 3
+uwsgi socket 0 bound to UNIX address /home/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xac5ac0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xac5ac0 pid: 16779 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 16779)
+spawned uWSGI worker 1 (pid: 16781, cores: 1)
+spawned uWSGI worker 2 (pid: 16782, cores: 1)
+spawned uWSGI worker 3 (pid: 16783, cores: 1)
+spawned uWSGI worker 4 (pid: 16784, cores: 1)
+spawned uWSGI http 1 (pid: 16785)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 00:19:23 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+group www-data not found.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 00:21:10 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+group www-data not found.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 00:28:15 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /tmp
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+group www-data not found.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 00:30:23 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+group www-data not found.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 00:32:51 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:5000 fd 3
+uwsgi socket 0 bound to UNIX address /home/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x25d7af0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x25d7af0 pid: 17346 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17346)
+spawned uWSGI worker 1 (pid: 17348, cores: 1)
+spawned uWSGI worker 2 (pid: 17349, cores: 1)
+spawned uWSGI worker 3 (pid: 17350, cores: 1)
+spawned uWSGI worker 4 (pid: 17351, cores: 1)
+spawned uWSGI http 1 (pid: 17352)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 00:37:40 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x15c6af0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x15c6af0 pid: 17383 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17383)
+spawned uWSGI worker 1 (pid: 17385, cores: 1)
+spawned uWSGI worker 2 (pid: 17386, cores: 1)
+spawned uWSGI worker 3 (pid: 17387, cores: 1)
+spawned uWSGI worker 4 (pid: 17388, cores: 1)
+spawned uWSGI http 1 (pid: 17389)
+Not Found: /
+[pid: 17385|app: 0|req: 1/1] 10.14.120.24 () {40 vars in 835 bytes} [Tue Nov 10 06:37:46 2020] GET / => generated 2247 bytes in 54 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 00:46:48 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (0.0.0.0:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 00:47:02 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/uwsgi.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9a41c0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9a41c0 pid: 17416 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17416)
+spawned uWSGI worker 1 (pid: 17418, cores: 1)
+spawned uWSGI worker 2 (pid: 17419, cores: 1)
+spawned uWSGI worker 3 (pid: 17420, cores: 1)
+spawned uWSGI worker 4 (pid: 17421, cores: 1)
+spawned uWSGI http 1 (pid: 17422)
+Not Found: /
+[pid: 17420|app: 0|req: 1/1] 10.14.120.24 () {40 vars in 835 bytes} [Tue Nov 10 06:47:04 2020] GET / => generated 2247 bytes in 43 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /
+[pid: 17420|app: 0|req: 2/2] 10.14.120.24 () {40 vars in 833 bytes} [Tue Nov 10 06:47:05 2020] GET / => generated 2247 bytes in 5 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+Not Found: /
+[pid: 17421|app: 0|req: 1/3] 10.14.120.24 () {40 vars in 835 bytes} [Tue Nov 10 06:47:41 2020] GET / => generated 2247 bytes in 53 msecs (HTTP/1.1 404) 6 headers in 173 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 09:34:25 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/chen7874/QoL
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/uwsgi.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x9b41b0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x9b41b0 pid: 25918 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 25918)
+spawned uWSGI worker 1 (pid: 25920, cores: 1)
+spawned uWSGI worker 2 (pid: 25921, cores: 1)
+spawned uWSGI worker 3 (pid: 25922, cores: 1)
+spawned uWSGI worker 4 (pid: 25923, cores: 1)
+spawned uWSGI http 1 (pid: 25924)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 09:37:17 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+group chen7874 not found.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 09:52:33 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/uwsgi.sock fd 6
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x233d220
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x233d220 pid: 26279 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 26279)
+spawned uWSGI worker 1 (pid: 26281, cores: 1)
+spawned uWSGI worker 2 (pid: 26282, cores: 1)
+spawned uWSGI worker 3 (pid: 26283, cores: 1)
+spawned uWSGI worker 4 (pid: 26284, cores: 1)
+spawned uWSGI http 1 (pid: 26285)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 09:55:13 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 3
+unable to find user www-data
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 10:11:34 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 3
+unable to find user www-data
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 10:15:04 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 3
+unable to find user www-data
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 10:15:13 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 3
+unable to find user www-data
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 10:16:39 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 3
+unable to find user www-data
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 10:19:24 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 3
+unable to find user www-data
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 10:20:48 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 3
+unable to find user www-data
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Nov 10 10:21:36 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 10 November 2020 03:42:45
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /home/chen7874/env/bin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8080 fd 3
+uwsgi socket 0 bound to UNIX address /home/chen7874/QoL/uwsgi.sock fd 6
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.8 (default, Apr  2 2020, 13:34:55)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-39)]
+PEP 405 virtualenv detected: /home/chen7874/env/
+Set PythonHome to /home/chen7874/env/
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2081ad0
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x2081ad0 pid: 26574 (default app)
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 26574)
+spawned uWSGI worker 1 (pid: 26576, cores: 1)
+spawned uWSGI worker 2 (pid: 26577, cores: 1)
+spawned uWSGI worker 3 (pid: 26578, cores: 1)
+spawned uWSGI worker 4 (pid: 26579, cores: 1)
+spawned uWSGI http 1 (pid: 26580)
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Nov 10 11:18:11 2020] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-39) on 13 May 2020 17:24:14
+os: Linux-3.10.0-957.el7.x86_64 #1 SMP Thu Nov 8 23:39:32 UTC 2018
+nodename: wngcap79.intra.uwlax.edu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home
+writing pidfile to /home/chen7874/master.pid
+detected binary path: /usr/sbin/uwsgi
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /home/chen7874/QoL/
+your processes number limit is 31191
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+building mime-types dictionary from file /etc/mime.types...1060 entry found
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/chen7874/QoL/uwsgi.sock fd 3
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 451985 bytes (441 KB) for 4 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 27745)
+spawned uWSGI worker 1 (pid: 27746, cores: 1)
+spawned uWSGI worker 2 (pid: 27747, cores: 1)
+spawned uWSGI worker 3 (pid: 27748, cores: 1)
+spawned uWSGI worker 4 (pid: 27749, cores: 1)
