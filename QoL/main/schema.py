@@ -2,6 +2,8 @@ import graphene
 from graphene_django.types import DjangoObjectType, ObjectType
 from .models import *
 import datetime
+from .data import ImportData
+from .feedback import ImportFeedback
 
 
 class AlbuminType(DjangoObjectType):
@@ -121,7 +123,6 @@ class Query(ObjectType):
         patient_ID = kwargs.get('patient_ID')
         # start = transferJSTime(kwargs.get('start'))
         end, start = None, None
-
         if kwargs.get('start'):
             start = transferJSTime(kwargs.get('start'))
         if kwargs.get('end'):
@@ -173,7 +174,6 @@ class Query(ObjectType):
         patient_ID = kwargs.get('patient_ID')
         # start = transferJSTime(kwargs.get('start'))
         end, start = None, None
-
         if kwargs.get('start'):
             start = transferJSTime(kwargs.get('start'))
         if kwargs.get('end'):
@@ -199,7 +199,12 @@ class Query(ObjectType):
         patient_ID = kwargs.get('patient_ID')
         # start = transferJSTime(kwargs.get('start'))
         end, start = None, None
-
+        # print('#########JIAN CHEN#######################')
+        # obj = ImportData()
+        # obj.get_data()
+        # NOTE: import the feedback data
+        # obj = ImportFeedback()
+        # obj.get_data()
         if kwargs.get('start'):
             start = transferJSTime(kwargs.get('start'))
         if kwargs.get('end'):
